@@ -1,4 +1,36 @@
 .container {
     max-width: 1440px;
     width: 100%;
+    
+}
+.depoimento {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0E0E0E;
+    width: 576px;
+    height: 192px;
+    margin-top: 36px;
+}
+.comentarios {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #725743;
+    margin-top: 82px;
+}
+.opinions {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
 }
