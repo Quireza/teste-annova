@@ -1,8 +1,9 @@
 .container {
     max-width: 1440px;
     width: 100%;
-    
+    min-width: 320px;
 }
+
 .depoimento {
     font-family: 'Arial';
     font-style: normal;
@@ -33,4 +34,106 @@
     line-height: 18px;
     text-align: center;
     color: #000000;
+    position: relative;
+}
+.emails {
+    padding-top: 35px;
+    padding-left: 262px;
+    padding-right: 389px;
+}
+.text {
+    position: absolute;
+    left: 174px;
+    right: 68.26%;
+    bottom: 120px;
+    color: #FFFFFF;
+}
+.parents {
+    position: relative;
+}
+.selected-image {
+    position: absolute;
+    top: 61px;
+    left: 174px;
+}
+.about {
+    position: absolute;
+    left: 658px;
+    top: 82px;
+    color: #FFFFFF;
+    font-style: normal;
+    font: 20px Arial;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+.who {
+    position: absolute;
+    color: #FFFFFF;
+    height: 30px;
+    top: 122px;
+    left: 658px;
+}
+.contact {
+    position: absolute;
+    color: #FFFFFF;
+    height: 30px;
+    top: 152px;
+    left: 658px;
+}
+.hastag-lulu {
+    position: absolute;
+    color: #FFFFFF;
+    height: 30px;
+    top: 182px;
+    left: 658px;
+}
+.account {
+    position: absolute;
+    top: 82px;
+    left: 879px;
+    height: 100px;
+    padding: 0px;
+    color:#FFFFFF;
+}
+.follow-us {
+    position: absolute;
+    top: 82px;
+    left: 1100px;
+    color: #FFFFFF;
+    font-style: normal;
+    font: 20px Arial;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+.icon {
+    position: absolute;
+    top: 118px;
+    left: 1100px;
+}
+.be-happy {
+    display: flex;
+    background-color: #A28F61;
+}
+.main-box{
+    position: relative;
+}
+.box {
+    color: #FFFFFF;
+    font: normal 20pt Arial;
+    font-size: 30px;
+    top: 75px;
+    position: absolute;
+    left: 66px;
+    width: 325px;
+    height: 36px;
+}
+.text-happy {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    width: 576px;
+    padding-top: 56px;
 }
